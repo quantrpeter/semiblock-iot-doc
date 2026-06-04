@@ -1,1 +1,1 @@
-This is Semiblock Three.js documentation repo
+This is Semiblock IoT platform documentation repo
