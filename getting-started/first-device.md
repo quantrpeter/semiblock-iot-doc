@@ -9,6 +9,8 @@ This page is the hub for the very first steps after you decide to use the IoT pl
 
 ## Steps
 
+![](img/firstDevice.png){width=100%}
+
 1. [Access the IoT console](access.md).
 2. [Register a new device](add-device.md) — give it a memorable name and pick the closest hardware type.
 3. Copy the generated **Device ID** (`dev_...`) and **Secret Key**. These two strings are what your code will send on every request.

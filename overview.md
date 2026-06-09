@@ -1,6 +1,6 @@
 # SemiBlock IoT Platform
 
-![IoT banner](overview/banner.png)
+![IoT banner](img/overview/overview.png){width=100%}
 
 The **SemiBlock IoT Platform** is the cloud layer that turns your visual programming projects into always-connected systems. It provides:
 
