@@ -7,7 +7,7 @@ The IoT Platform lives at the same domain as the rest of SemiBlock.
 After you have logged in with a normal SemiBlock account:
 
 ```
-https://<your-host>/iot
+https://build.semiblock.ai/iot
 ```
 
 (If you are developing locally it is usually `http://localhost:8000/iot` or the equivalent port your `php artisan serve` / Valet / Herd is using.)
