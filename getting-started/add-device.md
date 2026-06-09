@@ -5,15 +5,16 @@ Every physical board or gateway that will send data must first be registered in 
 ## Step-by-step
 
 1. Log into the main SemiBlock site.
-2. Navigate to **/iot** (or click the IoT icon in the main navigation).
-3. In the left sidebar choose **Devices**.
-4. Click the big **+ Add Device** button.
-5. Fill in:
+1. In the left sidebar choose **Devices**.
+1. Click the big **+ Add Device** button.
+1. Fill in:
    - **Name** (required) — something you will recognize later, e.g. "Classroom Weather Station #3".
    - **Type** (optional but recommended) — pick from ESP32, ESP8266, Arduino Uno/Nano, Raspberry Pi, micro:bit, or "Other".
    - **Description** (optional) — free text for notes, location, student name, etc.
-6. Click **Create**. The platform immediately generates a cryptographically random `device_id` (prefixed `dev_`) and a 48-character `secret_key`.
-7. The credentials are shown in a modal. **Copy them now** — the secret is never shown in plain text again (you can always reveal it later via the "key" icon on the device row).
+1. Click **Create**. The platform immediately generates a cryptographically random `device_id` (prefixed `dev_`) and a 48-character `secret_key`.
+1. The credentials are shown in a modal. **Copy them now** — the secret is never shown in plain text again (you can always reveal it later via the "key" icon on the device row).
+
+![](img/addDevice.png){width=100%}
 
 ## After creation
 
