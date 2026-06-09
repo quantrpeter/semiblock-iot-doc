@@ -2,6 +2,10 @@
 
 Every registered device is given two values that together act as its identity and password for the ingest API.
 
+![](img/deviceSecret1.png){width=100%}
+
+![](img/deviceSecret2.png){width=100%}
+
 ## Device ID (`device_id`)
 
 - Public, non-secret identifier.
