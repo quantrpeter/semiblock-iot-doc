@@ -1,5 +1,7 @@
 # Using the IoT Blocks from the Visual Editor
 
+> ![](img/IOT.png){width=inherit}
+
 This page gives the practical "click here, drag that" instructions. For the generated code and wire format see the sibling pages.
 
 ## Prerequisites
