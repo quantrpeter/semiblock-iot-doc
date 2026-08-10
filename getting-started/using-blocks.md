@@ -11,15 +11,27 @@ This page gives the practical "click here, drag that" instructions. For the gene
 
 1. Open or create a project.
 2. From the **IoT** (or **Cloud**) toolbox category, drag an `iotConnect` block onto the workspace.
+
+> ![](img/iotConnect.png){width=inherit}
+
 3. Fill the three fields:
    - Server: the base URL of your SemiBlock deployment (the same origin that serves `/iot`).
    - Device ID: paste the `dev_...` value exactly.
    - Secret: paste the long random secret exactly.
 4. (Optional but tidy) Put the `iotConnect` block inside `on start` or at the very top level so the constants are defined before any push.
+
+> ![](img/iot_onStart.png){width=inherit}
+
 5. Read your sensor as usual (DHT, ADC, etc.).
 6. Drag either:
    - `iotPushReading` — give it a sensor type string (e.g. `"dht11"`) and pass it the whole reading object or a constructed dict.
+
+> ![](img/iotPushReading.png){width=inherit}
+
    - `iotPushValue` — give it a sensor type, a key name, and a single numeric value or expression.
+
+> ![](img/iotPushValue.png){width=inherit}
+
 7. Connect the push block after the sensor read, inside the main loop or a timer callback.
 8. Click **Upload & Run** (or **Simulate**).
 
